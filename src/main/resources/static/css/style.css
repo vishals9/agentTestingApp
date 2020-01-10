@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+li a:hover:not (.active ) {
+	background-color: #555;
+	color: white;
+}
+
+.myForm {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+.myForm * {
+	box-sizing: border-box;
+}
+
+.myForm label {
+	padding: 0;
+}
+
+.myForm input {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.9em;
+	padding: 0.5em;
+}
+
+.myForm input[type="email"], .myForm input[type="password"] {
+	width: 12em;
+}
+
+.myForm button {
+	padding: 0.7em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+}
+
+.myForm button:hover {
+	background: #ccc;
+	cursor: pointer;
+}
+
+.myForm input[type="submit"] {
+	padding: 0.7em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+}
+
+.myForm input[type="submit"]:hover {
+	background: #ccc;
+	cursor: pointer;
+}
